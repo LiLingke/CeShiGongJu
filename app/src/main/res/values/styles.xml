@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textAppearanceButton">@style/ButtonTextStyle</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationActivity</item>-->
+    </style>
+
+    <style name="CommonTitleBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="fitStatusBar">true</item>
+        <item name="android:background">@color/color_title</item>
+        <item name="titleTextColor">@color/white</item>
+        <!--<item name="leftDrawable">@mipmap/fanhuijiantou1</item>-->
+        <item name="showLeftImage">true</item>
+    </style>
+</resources>

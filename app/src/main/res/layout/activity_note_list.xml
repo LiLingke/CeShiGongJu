@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_bg">
+
+    <cn.dlc.commonlibrary.ui.widget.TitleBar
+        android:id="@+id/titlebar"
+        style="@style/CommonTitleBarStyle"
+        app:titleText="@string/ceshijilu"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_350dp"
+        android:background="@color/color_btn">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_32sp"
+            android:text="@string/kaimengzongji"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_30dp" />
+
+
+        <LinearLayout
+            android:layout_width="@dimen/normal_400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_100dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_32sp"
+                android:text="@string/chenggong"/>
+            <TextView
+                android:id="@+id/tv_success"
+                android:layout_width="@dimen/normal_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_50sp"
+                android:gravity="center"
+                android:text="5200"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_32sp"
+                android:text="@string/cishu"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/normal_400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_200dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_32sp"
+                android:text="@string/shibai"/>
+            <TextView
+                android:id="@+id/tv_fair"
+                android:layout_width="@dimen/normal_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_50sp"
+                android:gravity="center"
+                android:text="3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_32sp"
+                android:text="@string/cishu"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

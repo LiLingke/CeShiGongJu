@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--标题栏通用-->
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleText" format="string" />
+    <attr name="leftDrawable" format="reference" />
+    <attr name="rightDrawable" format="reference" />
+    <attr name="leftText" format="string" />
+    <attr name="rightText" format="string" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="showLine" format="boolean" />
+    <attr name="lineColor" format="color" />
+    <attr name="showLeftImage" format="boolean" />
+    <attr name="showRightImage" format="boolean" />
+    <attr name="showLeftText" format="boolean" />
+    <attr name="showRightText" format="boolean" />
+
+    <declare-styleable name="TitleBar">
+        <attr name="titleTextColor" />
+        <attr name="showLeftImage" />
+        <attr name="showRightImage" />
+        <attr name="showLeftText" />
+        <attr name="showRightText" />
+        <attr name="titleText" />
+        <attr name="leftDrawable" />
+        <attr name="rightDrawable" />
+        <attr name="leftText" />
+        <attr name="rightText" />
+        <attr name="backgroundColor" />
+        <attr name="imageBg" format="reference" />
+        <attr name="textBg" format="reference" />
+        <attr name="showLine" />
+        <attr name="lineColor" />
+        <attr name="fitStatusBar" format="boolean" />
+        <attr name="behindImage" format="reference" />
+        
+
+    </declare-styleable>
+
+    <dimen name="title_text_size">@dimen/normal_36dp</dimen>
+    <dimen name="title_button_text_size">@dimen/normal_30dp</dimen>
+    <dimen name="title_bar_height">@dimen/normal_100dp</dimen>
+    <color name="title_text_color">@color/white</color>
+    <item name="title_bar_button_bg" type="drawable">@drawable/clickable_bg_item</item>
+    <item name="title_bar_text_bg" type="drawable">@drawable/clickable_bg</item>
+    <color name="title_bottom_line_color">@color/blue_bg</color>
+    <!--<color name="title_bar_background">@color/theme_color</color>-->
+
+
+</resources>

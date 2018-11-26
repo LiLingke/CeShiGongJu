@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CeShiGongJu</string>
+
+    <string name="queding">确定</string>
+    <string name="tiaoguo">跳过</string>
+    <string name="ceshigongju">测试工具</string>
+    <string name="kaimenjishu">开门计数</string>
+    <string name="cishu">次</string>
+    <string name="lianjiezhong">状态:连接中.....</string>
+    <string name="yilianjie">状态:已连接</string>
+    <string name="weilianjie">状态:未连接</string>
+    <string name="kaimengtingzhi">开门/停止</string>
+    <string name="ceshijilu">测试记录</string>
+    <string name="zainanyicituichu">再按一次退出</string>
+    <string name="kaimengzongji">开门总计</string>
+    <string name="chenggong">成功</string>
+    <string name="shibai">失败</string>
+    <string name="chenggongcishu">成功：%d</string>
+    <string name="shibaicishu">失败：%d</string>
+    <string name="saomiao">扫描</string>
+    <string name="saomiaoerweima">扫描二维码</string>
+    <string name="morenjihao">默认机号</string>
+
+
+</resources>

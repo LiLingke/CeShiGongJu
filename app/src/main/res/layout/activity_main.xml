@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_bg">
+
+    <cn.dlc.commonlibrary.ui.widget.TitleBar
+        android:id="@+id/titlebar"
+        style="@style/CommonTitleBarStyle"
+        app:titleText="@string/ceshigongju"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_350dp">
+
+   <ImageView
+       android:id="@+id/img_bg"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/color_title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_32sp"
+            android:text="@string/kaimenjishu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/normal_30dp"
+            android:id="@+id/textView" />
+
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_100sp"
+                tools:text="0"
+                android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_count"
+            android:layout_alignBottom="@+id/tv_count"
+            android:layout_toRightOf="@+id/tv_count"
+            android:layout_marginLeft="@dimen/normal_30dp"
+            android:text="@string/cishu"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_32sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_32sp"
+            android:text="@string/lianjiezhong"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/normal_12dp"/>
+    </RelativeLayout>
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_switch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_200dp"
+        android:layout_margin="@dimen/normal_24dp"
+        android:background="@drawable/button_shape"
+        android:textSize="@dimen/normal_36sp"
+        android:textColor="@color/white"
+        android:text="开门"/>
+
+    <Button
+        android:id="@+id/btn_note"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_100dp"
+        android:layout_margin="@dimen/normal_24dp"
+        android:background="@drawable/button_shape"
+        android:textSize="@dimen/normal_36sp"
+        android:textColor="@color/white"
+        android:text="@string/ceshijilu"/>
+</LinearLayout>

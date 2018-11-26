@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="behind_status_bar" format="boolean"></attr>
+
+
+    <declare-styleable name="TopFrameLayout">
+        <attr name="behind_status_bar" />
+    </declare-styleable>
+
+    <declare-styleable name="TopLinearLayout">
+        <attr name="behind_status_bar" />
+    </declare-styleable>
+
+    <declare-styleable name="TopRelativeLayout">
+        <attr name="behind_status_bar" />
+    </declare-styleable>
+    
+</resources>

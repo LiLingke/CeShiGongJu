@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cn.dlc.commonlibrary.ui.widget.TitleBar
+        android:id="@+id/titlebar"
+        style="@style/CommonTitleBarStyle"
+        app:titleText="@string/ceshigongju"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_90dp">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="@dimen/normal_180dp"
+            android:layout_height="@dimen/normal_70dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_28sp"
+            android:background="@drawable/button_shape_right"
+            android:layout_marginLeft="@dimen/normal_24dp"
+            android:text="开始扫描"/>
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="@dimen/normal_180dp"
+            android:layout_height="@dimen/normal_70dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_28sp"
+            android:background="@drawable/button_shape_right"
+            android:layout_marginLeft="@dimen/normal_24dp"
+            android:visibility="invisible"
+            android:text="停止扫描"/>
+
+        <ImageView
+            android:id="@+id/img_renovate"
+            android:layout_width="@dimen/normal_60dp"
+            android:layout_height="@dimen/normal_60dp"
+            android:src="@drawable/ic_renovate"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/normal_120dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_24dp"/>
+
+</LinearLayout>
